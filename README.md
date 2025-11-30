@@ -40,23 +40,23 @@
 git clone https://github.com/realtonysoprano/income-prediction-alfabank.git
 cd income-prediction-alfabank
 ```
-3. Создание и активация виртуального окружения (по желанию)
+2. Создание и активация виртуального окружения (по желанию)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
-5. Установка зависимостей
+3. Установка зависимостей
 ```bash
 pip install -r requirements.txt
 ```
-7. Запуск FastAPI backend
+4. Запуск FastAPI backend
 ```bash
 cd src
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 открыть в браузере http://localhost:8000/docs
 
-9. Запуск Streamlit frontend
+5. Запуск Streamlit frontend
     
 находясь в src выполнить:
 ```bash
